@@ -32,7 +32,7 @@ imprimir(SOMA);
 public class Main {
 
     public static void main(String[] args){
-        int num = 50; // número de entrada abaixo, a ser verificado na sequência
+        int num = 50; // número de entrada, a ser verificado na sequência
         int fib1 = 0, fib2 = 1, fib3 = 1;
         boolean pertence = false;
 
