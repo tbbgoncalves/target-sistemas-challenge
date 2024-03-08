@@ -18,7 +18,8 @@ imprimir(SOMA);
 ```
 **Ao final do processamento, qual será o valor da variável SOMA?**
 
-R: 78
+~R: 78~
+<br>R: após o commit, eu percebi que esqueci a última iteração do for para o ``ÍNDICE = 12`` e, por isso, a resposta correta é 91. Deixo este ressalvo, pois, durante realização do teste, não rodei o algoritmo e fiz a iterações no papel. Quando concluído o teste e feito o commit, rodei e vi que calculei até ``ÍNDICE = 11``, esquecendo a última ``ÍNDICE = 12``, visto que a condição é ``K < ÍNDICE``
 
 ## 2ª Questão
 **Dado a sequência de Fibonacci, onde se inicia por 0 e 1 e o próximo valor sempre será a soma dos 2 valores anteriores (exemplo: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34...), escreva um programa na linguagem que desejar onde, informado um número, ele calcule a sequência de Fibonacci e retorne uma mensagem avisando se o número informado pertence ou não a sequência.**
